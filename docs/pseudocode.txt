@@ -1,0 +1,28 @@
+BEGIN
+  Initialize game state
+  Show menu
+  WHILE menu choice != exit
+    IF choice == start game
+      Get level and number of players
+      Initialize board and players
+      WHILE not all pairs matched
+        Clear screen
+        Show current player's board
+        Get two card positions
+        Reveal cards
+        IF cards match
+          Mark as matched, increment score
+        ELSE
+          Hide cards
+        Prompt for ENTER to pass turn
+        Next player
+      END WHILE
+      Record total time
+      Update best record if new record
+    ELSE IF choice == view records
+      Read and display record.txt
+    ELSE IF choice == how to play
+      Show instructions
+    END IF
+  END WHILE
+END

@@ -1,0 +1,52 @@
+--- Memory Concentration Card Game ---
+1. Start Game
+2. View Best Records
+3. How to Play
+4. Exit
+Enter choice: 1
+Select level (1-5): 2
+Number of players (1-3): 2
+Enter name for Player 1: Alice
+Enter name for Player 2: Bob
+
+Level: 2 | Players: 2
+Player Alice's turn
+
+  ?   ?   ?   ?
+  ?   ?   ?   ?
+  ?   ?   ?   ?
+  ?   ?   ?   ?
+
+Enter first card (row col): 0 0
+Enter second card (row col): 0 1
+
+  0   1   ?   ?
+  ?   ?   ?   ?
+  ?   ?   ?   ?
+  ?   ?   ?   ?
+
+No match. Cards will be hidden.
+Press ENTER to pass turn...
+
+Level: 2 | Players: 2
+Player Bob's turn
+
+  ?   ?   ?   ?
+  ?   ?   ?   ?
+  ?   ?   ?   ?
+  ?   ?   ?   ?
+
+Enter first card (row col): 1 1
+Enter second card (row col): 1 2
+
+  ?   ?   ?   ?
+  ?   2   3   ?
+  ?   ?   ?   ?
+  ?   ?   ?   ?
+
+No match. Cards will be hidden.
+Press ENTER to pass turn...
+
+Game over! Total time: 123.45 seconds
+Alice: 4 points
+Bob: 4 points
